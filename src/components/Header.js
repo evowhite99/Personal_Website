@@ -11,7 +11,7 @@ export function Header({ language, setLanguage }) {
     () => window.localStorage.getItem("theme") === "light"
   );
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const handleToggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
