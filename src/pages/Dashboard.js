@@ -16,7 +16,7 @@ export function Dashboard({ language }) {
 
         <img
           className="h-28 lg:pb-0 pb-1 w-full"
-          src={"/images/negro.webp"}
+          src={"/Personal_Website/images/negro.webp"}
           alt="negro"
           style={{
             borderTopLeftRadius: "0.4rem",
@@ -34,7 +34,7 @@ export function Dashboard({ language }) {
         <Link to="/info">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/images/infoProjects.webp"}
+            src={"/Personal_Website/images/infoProjects.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -54,7 +54,7 @@ export function Dashboard({ language }) {
         <Link to="/top20">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/images/top20Photo.webp"}
+            src={"/Personal_Website/images/top20Photo.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -74,7 +74,7 @@ export function Dashboard({ language }) {
         <Link to="/dreams">
           <img
             className="h-28 w-full"
-            src={"/images/dreams.webp"}
+            src={"/Personal_Website/images/dreams.webp"}
             alt="Dreams PS4"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -99,7 +99,7 @@ export function Dashboard({ language }) {
         </div>
         <img
           className="h-28 w-full"
-          src={"/images/negro.webp"}
+          src={"/Personal_Website/images/negro.webp"}
           alt="negro"
           style={{
             borderTopLeftRadius: "0.4rem",
@@ -123,7 +123,7 @@ export function Dashboard({ language }) {
         </div>
         <img
           className="h-28 w-full"
-          src={"/images/negro.webp"}
+          src={"/Personal_Website/images/negro.webp"}
           alt="negro"
           style={{
             borderTopLeftRadius: "0.4rem",

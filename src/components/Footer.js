@@ -25,17 +25,16 @@ export function Footer({ language }) {
   return (
     <div>
       <div>
-        <a href="#website">
-          <img
-            className={`fixed lg:bottom-5 bottom-2 lg:right-7 right-2 lg:h-10 h-8 animate-pulse bg-gray-300 dark:bg-blue-800 rounded-md cursor-pointer transition-all duration-300 ease-in-out hover:scale-125 ${
-              isVisible
-                ? "opacity-100 translate-x-0"
-                : "opacity-100 translate-x-40"
-            }`}
-            src={"/images/arriba_icono.png"}
-            alt="Up Web"
-          ></img>
-        </a>
+        <img
+          className={`fixed lg:bottom-5 bottom-2 lg:right-7 right-2 lg:h-10 h-8 animate-pulse bg-gray-300 dark:bg-blue-800 rounded-md cursor-pointer transition-all duration-300 ease-in-out hover:scale-125 ${
+            isVisible
+              ? "opacity-100 translate-x-0"
+              : "opacity-100 translate-x-40"
+          }`}
+          src={"/Personal_Website/images/arriba_icono.png"}
+          alt="Up Web"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        ></img>
       </div>
       <div className="flex justify-center">
         <div className="mt-32">
@@ -62,7 +61,7 @@ export function Footer({ language }) {
           </div>
           <img
             className=" lg:h-20 h-8 cursor-pointer"
-            src={"/images/ko-fi.png"}
+            src={"/Personal_Website//images/ko-fi.png"}
             alt="Ko-Fi"
           ></img>
         </a>
@@ -70,7 +69,7 @@ export function Footer({ language }) {
         <a href="https://www.youtube.com/watch?v=iLngVDpKamY">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/images/youtube.png"}
+            src={"/Personal_Website/images/youtube.png"}
             alt="YouTube"
           ></img>
         </a>
@@ -78,7 +77,7 @@ export function Footer({ language }) {
         <a href="https://twitter.com/evowhite99">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/images/twitter.png"}
+            src={"/Personal_Website/images/twitter.png"}
             alt="Twitter"
           ></img>
         </a>
@@ -86,7 +85,7 @@ export function Footer({ language }) {
         <a href="https://www.instagram.com/evowhite99/">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/images/instagram.png"}
+            src={"/Personal_Website/images/instagram.png"}
             alt="Instagram"
           ></img>
         </a>
@@ -94,7 +93,7 @@ export function Footer({ language }) {
         <a href="https://github.com/rubenwebgit">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/images/github.png"}
+            src={"/Personal_Website/images/github.png"}
             alt="GitHub"
           ></img>
         </a>

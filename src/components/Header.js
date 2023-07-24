@@ -27,17 +27,19 @@ export function Header({ language, setLanguage }) {
         document.body.classList.remove("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
-            "url(/images/sunPhotoMobile.webp)";
+            "url(/Personal_Website/images/sunPhotoMobile.webp)";
         } else {
-          document.body.style.backgroundImage = "url(/images/sunPhoto.webp)";
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/sunPhoto.webp)";
         }
       } else {
         document.body.classList.add("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
-            "url(/images/darkPhotoMobile.webp)";
+            "url(/Personal_Website/images/darkPhotoMobile.webp)";
         } else {
-          document.body.style.backgroundImage = "url(/images/darkPhoto.webp)";
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/darkPhoto.webp)";
         }
       }
     });
@@ -88,7 +90,11 @@ export function Header({ language, setLanguage }) {
           >
             <img
               className="h-6 w-8"
-              src={isSelected ? "/images/sun.png" : "images/moon.png"}
+              src={
+                isSelected
+                  ? "/Personal_Website/images/sun.png"
+                  : "/Personal_Website/images/moon.png"
+              }
               alt={isSelected ? "light theme" : "dark theme"}
             />
           </span>
@@ -97,14 +103,14 @@ export function Header({ language, setLanguage }) {
         <img
           data-hs-overlay="#hs-basic-modal"
           className="cursor-pointer dark:bg-white dark:rounded  lg:h-8 h-6 rounded-md duration-300 hover:scale-125  dark:p-1"
-          src={"/images/infoButton.png"}
+          src={"/Personal_Website/images/infoButton.png"}
           alt="infoButton"
         ></img>
         <img
           onClick={handleToggleSidebar}
           className="cursor-pointer flex lg:w-8 lg:h-8 w-6 h-6 dark:pt-2 dark:pb-2 
           duration-300 hover:scale-125 dark:bg-white dark:rounded"
-          src={"/images/burger.svg"}
+          src={"/Personal_Website/images/burger.svg"}
           alt="sidebar"
         />
       </div>
