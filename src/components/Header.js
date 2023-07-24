@@ -11,7 +11,7 @@ export function Header({ language, setLanguage }) {
     () => window.localStorage.getItem("theme") === "light"
   );
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const handleToggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -72,7 +72,7 @@ export function Header({ language, setLanguage }) {
           </span>
         </div>
         <div
-          onClick={() => setIsSelected(!isSelected)}
+          onClick={() => setIsSelected(isSelected)}
           className={classNames(
             "hover:scale-125 cursor-pointer flex-none w-14 h-7 bg-blue-600 dark:bg-gray-600 m-10 rounded-full transition-all duration-500 border-2 border-black  lg:flex hidden",
             {
