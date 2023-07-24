@@ -1,0 +1,17 @@
+.outlineHeader {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 3px 0 #000;
+}
+
+.outlineHeader2 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    0px 1px 0 #000;
+}
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("../fonts/LilitaOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
