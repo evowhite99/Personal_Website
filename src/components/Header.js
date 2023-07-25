@@ -8,7 +8,7 @@ import "../styles/header.css";
 
 export function Header({ language, setLanguage }) {
   const [isSelected, setIsSelected] = useState(
-    () => window.localStorage.getItem("theme") === "light"
+    () => window.localStorage.getItem("theme") === "dark"
   );
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
