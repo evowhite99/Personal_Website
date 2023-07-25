@@ -46,7 +46,7 @@ export function Header({ language, setLanguage }) {
   }, [isSelected]);
 
   useEffect(() => {
-    window.localStorage.setItem("theme", isSelected ? "dark" : "light");
+    window.localStorage.setItem("theme", isSelected ? "light" : "dark");
   }, [isSelected]);
 
   useEffect(() => {
