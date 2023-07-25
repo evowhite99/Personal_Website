@@ -23,7 +23,7 @@ export function Header({ language, setLanguage }) {
 
   useEffect(() => {
     window.requestAnimationFrame(() => {
-      if (!isSelected) {
+      if (isSelected) {
         document.body.classList.remove("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
@@ -46,7 +46,7 @@ export function Header({ language, setLanguage }) {
   }, [isSelected]);
 
   useEffect(() => {
-    window.localStorage.setItem("theme", isSelected ? "light" : "dark");
+    window.localStorage.setItem("theme", isSelected ? "dark" : "light");
   }, [isSelected]);
 
   useEffect(() => {
