@@ -23,16 +23,7 @@ export function Header({ language, setLanguage }) {
 
   useEffect(() => {
     window.requestAnimationFrame(() => {
-      if (isSelected) {
-        document.body.classList.add("dark");
-        if (window.innerWidth <= 768) {
-          document.body.style.backgroundImage =
-            "url(/Personal_Website/images/darkPhotoMobile.webp)";
-        } else {
-          document.body.style.backgroundImage =
-            "url(/Personal_Website/images/darkPhoto.webp)";
-        }
-      } else {
+      if (!isSelected) {
         document.body.classList.remove("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
@@ -40,6 +31,15 @@ export function Header({ language, setLanguage }) {
         } else {
           document.body.style.backgroundImage =
             "url(/Personal_Website/images/sunPhoto.webp)";
+        }
+      } else {
+        document.body.classList.add("dark");
+        if (window.innerWidth <= 768) {
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/darkPhotoMobile.webp)";
+        } else {
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/darkPhoto.webp)";
         }
       }
     });
@@ -74,7 +74,7 @@ export function Header({ language, setLanguage }) {
         <div
           onClick={() => setIsSelected(!isSelected)}
           className={classNames(
-            "hover:scale-125 cursor-pointer flex-none w-14 h-7 bg-blue-600 dark:bg-gray-600 m-10 rounded-full transition-all duration-500 border-2 border-black  lg:flex hidden",
+            "hover:scale-125 cursor-pointer flex-none w-14 h-7 bg-yellow-700 dark:bg-blue-900 m-10 rounded-full transition-all duration-500 border-2 border-black  lg:flex hidden",
             {
               "bg-blue-500": isSelected,
             }
