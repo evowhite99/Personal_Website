@@ -46,7 +46,7 @@ export function Header({ language, setLanguage }) {
   }, [isSelected]);
 
   useEffect(() => {
-    window.localStorage.setItem("theme", isSelected ? "light" : "dark");
+    window.localStorage.setItem("theme", isSelected ? "dark" : "light");
   }, [isSelected]);
 
   useEffect(() => {
@@ -92,10 +92,10 @@ export function Header({ language, setLanguage }) {
               className="h-6 w-8"
               src={
                 isSelected
-                  ? "/Personal_Website/images/sun.png"
-                  : "/Personal_Website/images/moon.png"
+                  ? "/Personal_Website/images/moon.png"
+                  : "/Personal_Website/images/sun.png"
               }
-              alt={isSelected ? "light theme" : "dark theme"}
+              alt={isSelected ? "dark theme" : "light theme"}
             />
           </span>
         </div>
