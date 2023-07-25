@@ -37,12 +37,18 @@ export function Sidebar({
         } lg:w-80 w-60 bg-blue-800 dark:bg-gray-900 z-50 overflow-auto`}
       >
         <div className="flex">
-          <div className="mt-5 ml-5 font-lilita outlineHeader text-yellow-400 dark:text-blue-500 lg:text-2xl pr-12 text-lg ">
-            Accesos Directos
+          <div className="mt-5 ml-5 font-lilita outlineHeader text-yellow-400 dark:text-blue-500 lg:text-2xl pr-12 text-md ">
+            {languages[language].shortcut}
           </div>
           <button
             onClick={onClose}
-            className="px-2 py-1 mt-3 lg:ml-10  text-3xl text-white hover:scale-125 duration-200 hover:text-red-600 dark:hover:text-blue-700"
+            className={classNames(
+              "px-2 py-1 mt-3 lg:ml-10  text-3xl text-white hover:scale-125 duration-200 hover:text-red-600 dark:hover:text-blue-700",
+              {
+                "ml-2": language === "ES",
+                "ml-14 lg:ml-28": language === "EN",
+              }
+            )}
           >
             X
           </button>
@@ -57,7 +63,7 @@ export function Sidebar({
           <div
             onClick={() => setIsSelected(!isSelected)}
             className={classNames(
-              "hover:scale-125 cursor-pointer flex w-14 h-7 bg-blue-600 dark:bg-gray-600 rounded-full transition-all duration-500 border-2 border-black ",
+              "hover:scale-105 cursor-pointer flex w-14 h-7 bg-yellow-700 dark:bg-blue-900 rounded-full transition-all duration-500 border-2 border-black ",
               {
                 "bg-blue-500": isSelected,
               }
@@ -75,22 +81,14 @@ export function Sidebar({
                 className="h-6 w-8"
                 src={
                   isSelected
-                    ? "/Personal_Website/images/sun.png"
-                    : "/Personal_Website/images/moon.png"
+                    ? "/Personal_Website/images/moon.png"
+                    : "/Personal_Website/images/sun.png"
                 }
                 alt={isSelected ? "light theme" : "dark theme"}
               />
             </span>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <Link to="/info" onClick={onClose}>
-              {languages[language].projects}
-            </Link>
-          </div>
-        </div>
-
         <div className="flex justify-center">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/top20" onClick={onClose}>
@@ -101,9 +99,39 @@ export function Sidebar({
 
         <div className="flex justify-center">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+            <Link to="/music" onClick={onClose}>
+              {languages[language].music}
+            </Link>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/dreams" onClick={onClose}>
               Dreams PS4
             </Link>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+            <a href="https://www.instagram.com/ruben.web/">
+              {languages[language].portfolio}
+            </a>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+            <a href="https://www.instagram.com/project_sphere__/">
+              {languages[language].duck}
+            </a>
+          </div>
+        </div>
+
+        <div className="flex justify-center mb-8">
+          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white ">
+            {languages[language].prox}...
           </div>
         </div>
       </div>

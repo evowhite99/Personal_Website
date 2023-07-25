@@ -5,11 +5,9 @@ import { Footer } from "./components/Footer";
 
 import { Dashboard } from "./pages/Dashboard";
 import { Portfolio } from "./pages/Portfolio";
-import { Info } from "./pages/Info";
+import { Music } from "./pages/Music";
 import { Top20 } from "./pages/Top20";
 import { Dreams } from "./pages/Dreams";
-import { Game } from "./pages/Game";
-import { Sales } from "./pages/Sales";
 
 export function App() {
   const [language, setLanguage] = useState(
@@ -21,12 +19,10 @@ export function App() {
       <Header language={language} setLanguage={setLanguage} />
       <Routes>
         <Route path="/" element={<Dashboard language={language} />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="info" element={<Info />} />
         <Route path="top20" element={<Top20 />} />
+        <Route path="music" element={<Music />} />
         <Route path="dreams" element={<Dreams />} />
-        <Route path="game" element={<Game />} />
-        <Route path="sales" element={<Sales />} />
+        <Route path="portfolio" element={<Portfolio />} />
         <Route path="/" element={<Dashboard language={language} />} />
       </Routes>
       <Footer language={language} />

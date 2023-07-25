@@ -89,14 +89,6 @@ export function Footer({ language }) {
             alt="Instagram"
           ></img>
         </a>
-
-        <a href="https://github.com/rubenwebgit">
-          <img
-            className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/Personal_Website/images/github.png"}
-            alt="GitHub"
-          ></img>
-        </a>
       </div>
       <div className="flex justify-center">
         <div className="text-white mt-5 mb-10 lg:text-2xl text-xl">
