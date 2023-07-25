@@ -24,15 +24,6 @@ export function Header({ language, setLanguage }) {
   useEffect(() => {
     window.requestAnimationFrame(() => {
       if (isSelected) {
-        document.body.classList.remove("dark");
-        if (window.innerWidth <= 768) {
-          document.body.style.backgroundImage =
-            "url(/Personal_Website/images/sunPhotoMobile.webp)";
-        } else {
-          document.body.style.backgroundImage =
-            "url(/Personal_Website/images/sunPhoto.webp)";
-        }
-      } else {
         document.body.classList.add("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
@@ -40,6 +31,15 @@ export function Header({ language, setLanguage }) {
         } else {
           document.body.style.backgroundImage =
             "url(/Personal_Website/images/darkPhoto.webp)";
+        }
+      } else {
+        document.body.classList.remove("dark");
+        if (window.innerWidth <= 768) {
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/sunPhotoMobile.webp)";
+        } else {
+          document.body.style.backgroundImage =
+            "url(/Personal_Website/images/sunPhoto.webp)";
         }
       }
     });
