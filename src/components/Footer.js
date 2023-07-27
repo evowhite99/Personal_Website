@@ -50,7 +50,7 @@ export function Footer({ language }) {
       <div className="mt-20 flex justify-center">
         <a
           className="hover:scale-125 duration-200"
-          href="https://ko-fi.com/evowhite99"
+          href="https://ko-fi.com/rubenweb"
         >
           <div
             className={`absolute font-lilita outlineHeader text-sm lg:mt-[-10px] mt-[-16px] ml-[-16px] dark:text-slate-300 text-yellow-500 ${
@@ -66,25 +66,9 @@ export function Footer({ language }) {
           ></img>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=iLngVDpKamY">
+        <a href="https://www.instagram.com/ruben.web/">
           <img
-            className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/rubenperez/images/youtube.png"}
-            alt="YouTube"
-          ></img>
-        </a>
-
-        <a href="https://twitter.com/evowhite99">
-          <img
-            className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/rubenperez/images/twitter.png"}
-            alt="Twitter"
-          ></img>
-        </a>
-
-        <a href="https://www.instagram.com/evowhite99/">
-          <img
-            className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
+            className="hover:scale-125 duration-200 lg:h-20 h-8 pb-2 lg:ml-10 ml-8 cursor-pointer"
             src={"/rubenperez/images/instagram.png"}
             alt="Instagram"
           ></img>
