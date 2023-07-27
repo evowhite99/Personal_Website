@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Personal_Website/static/css/main.6d0509e1.css",
-    "main.js": "/Personal_Website/static/js/main.d8792830.js",
-    "static/js/223.7354fc92.chunk.js": "/Personal_Website/static/js/223.7354fc92.chunk.js",
-    "static/media/LilitaOne-Regular.ttf": "/Personal_Website/static/media/LilitaOne-Regular.e970d047065ed950bb8c.ttf",
-    "index.html": "/Personal_Website/index.html",
-    "main.6d0509e1.css.map": "/Personal_Website/static/css/main.6d0509e1.css.map",
-    "main.d8792830.js.map": "/Personal_Website/static/js/main.d8792830.js.map",
-    "223.7354fc92.chunk.js.map": "/Personal_Website/static/js/223.7354fc92.chunk.js.map"
+    "main.css": "/rubenperez/static/css/main.8e6d0bc6.css",
+    "main.js": "/rubenperez/static/js/main.fd622371.js",
+    "static/js/223.7354fc92.chunk.js": "/rubenperez/static/js/223.7354fc92.chunk.js",
+    "static/media/LilitaOne-Regular.ttf": "/rubenperez/static/media/LilitaOne-Regular.e970d047065ed950bb8c.ttf",
+    "index.html": "/rubenperez/index.html",
+    "main.8e6d0bc6.css.map": "/rubenperez/static/css/main.8e6d0bc6.css.map",
+    "main.fd622371.js.map": "/rubenperez/static/js/main.fd622371.js.map",
+    "223.7354fc92.chunk.js.map": "/rubenperez/static/js/223.7354fc92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0509e1.css",
-    "static/js/main.d8792830.js"
+    "static/css/main.8e6d0bc6.css",
+    "static/js/main.fd622371.js"
   ]
 }
