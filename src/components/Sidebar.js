@@ -81,8 +81,8 @@ export function Sidebar({
                 className="h-6 w-8"
                 src={
                   isSelected
-                    ? "/Personal_Website/images/moon.png"
-                    : "/Personal_Website/images/sun.png"
+                    ? "/rubenperez/images/moon.png"
+                    : "/rubenperez/images/sun.png"
                 }
                 alt={isSelected ? "light theme" : "dark theme"}
               />

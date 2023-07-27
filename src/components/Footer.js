@@ -31,7 +31,7 @@ export function Footer({ language }) {
               ? "opacity-100 translate-x-0"
               : "opacity-100 translate-x-40"
           }`}
-          src={"/Personal_Website/images/arriba_icono.png"}
+          src={"/rubenperez/images/arriba_icono.png"}
           alt="Up Web"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         ></img>
@@ -61,7 +61,7 @@ export function Footer({ language }) {
           </div>
           <img
             className=" lg:h-20 h-8 cursor-pointer"
-            src={"/Personal_Website//images/ko-fi.png"}
+            src={"/rubenperez/images/ko-fi.png"}
             alt="Ko-Fi"
           ></img>
         </a>
@@ -69,7 +69,7 @@ export function Footer({ language }) {
         <a href="https://www.youtube.com/watch?v=iLngVDpKamY">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/Personal_Website/images/youtube.png"}
+            src={"/rubenperez/images/youtube.png"}
             alt="YouTube"
           ></img>
         </a>
@@ -77,7 +77,7 @@ export function Footer({ language }) {
         <a href="https://twitter.com/evowhite99">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/Personal_Website/images/twitter.png"}
+            src={"/rubenperez/images/twitter.png"}
             alt="Twitter"
           ></img>
         </a>
@@ -85,7 +85,7 @@ export function Footer({ language }) {
         <a href="https://www.instagram.com/evowhite99/">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 lg:ml-10 ml-8 cursor-pointer"
-            src={"/Personal_Website/images/instagram.png"}
+            src={"/rubenperez/images/instagram.png"}
             alt="Instagram"
           ></img>
         </a>

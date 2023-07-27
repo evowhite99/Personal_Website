@@ -54,7 +54,7 @@ export function Dreams({ language }) {
               >
                 <img
                   className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-full max-w-full z-50"
-                  src={"/Personal_Website/images/imageDreams1.webp"}
+                  src={"/rubenperez/images/imageDreams1.webp"}
                   alt="Rayman"
                   onClick={(event) =>
                     handleCloseClick(event, setIsFullScreenImage1)
@@ -65,7 +65,7 @@ export function Dreams({ language }) {
             <img
               onClick={() => setIsFullScreenImage1(true)}
               className="cursor-pointer lg:h-40 h-16 flex"
-              src={"/Personal_Website/images/imageDreams1.webp"}
+              src={"/rubenperez/images/imageDreams1.webp"}
               alt="Rayman"
             ></img>
 
@@ -78,7 +78,7 @@ export function Dreams({ language }) {
               >
                 <img
                   className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-full max-w-full z-50"
-                  src={"/Personal_Website/images/imageDreams3.webp"}
+                  src={"/rubenperez/images/imageDreams3.webp"}
                   alt="Rayman"
                   onClick={(event) =>
                     handleCloseClick(event, setIsFullScreenImage2)
@@ -89,7 +89,7 @@ export function Dreams({ language }) {
             <img
               onClick={() => setIsFullScreenImage2(true)}
               className="cursor-pointer ml-5 lg:h-40 h-16 flex"
-              src={"/Personal_Website/images/imageDreams3.webp"}
+              src={"/rubenperez/images/imageDreams3.webp"}
               alt="Rayman"
             ></img>
           </div>
@@ -125,7 +125,7 @@ export function Dreams({ language }) {
               >
                 <img
                   className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-full max-w-full z-50"
-                  src={"/Personal_Website/images/imageDreams2.webp"}
+                  src={"/rubenperez/images/imageDreams2.webp"}
                   alt="Dreams of Automata"
                   onClick={(event) =>
                     handleCloseClick(event, setIsFullScreenImage3)
@@ -136,7 +136,7 @@ export function Dreams({ language }) {
             <img
               onClick={() => setIsFullScreenImage3(true)}
               className="cursor-pointer lg:h-40 h-16 flex"
-              src={"/Personal_Website/images/imageDreams2.webp"}
+              src={"/rubenperez/images/imageDreams2.webp"}
               alt="Dreams of Automata"
             ></img>
 
@@ -149,7 +149,7 @@ export function Dreams({ language }) {
               >
                 <img
                   className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-full max-w-full z-50"
-                  src={"/Personal_Website/images/imageDreams4.webp"}
+                  src={"/rubenperez/images/imageDreams4.webp"}
                   alt="Dreams of Automata"
                   onClick={(event) =>
                     handleCloseClick(event, setIsFullScreenImage4)
@@ -160,7 +160,7 @@ export function Dreams({ language }) {
             <img
               onClick={() => setIsFullScreenImage4(true)}
               className="cursor-pointer ml-5 lg:h-40 h-16 flex"
-              src={"/Personal_Website/images/imageDreams4.webp"}
+              src={"/rubenperez/images/imageDreams4.webp"}
               alt="Dreams of Automata"
             ></img>
           </div>

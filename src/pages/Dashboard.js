@@ -9,7 +9,7 @@ export function Dashboard({ language }) {
         <Link to="/top20">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/Personal_Website/images/top20Photo.webp"}
+            src={"/rubenperez/images/top20Photo.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -28,7 +28,7 @@ export function Dashboard({ language }) {
         <Link to="/music">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/Personal_Website/images/music.webp"}
+            src={"/rubenperez/images/music.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -48,7 +48,7 @@ export function Dashboard({ language }) {
         <Link to="/dreams">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/Personal_Website/images/dreams.webp"}
+            src={"/rubenperez/images/dreams.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -68,7 +68,7 @@ export function Dashboard({ language }) {
         <a href="https://www.instagram.com/ruben.web/">
           <img
             className="h-28 w-full"
-            src={"/Personal_Website/images/portfolio.webp"}
+            src={"/rubenperez/images/portfolio.webp"}
             alt="Dreams PS4"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -87,7 +87,7 @@ export function Dashboard({ language }) {
         <a href="https://www.instagram.com/project_sphere__/">
           <img
             className="h-28 w-full"
-            src={"/Personal_Website/images/game.webp"}
+            src={"/rubenperez/images/game.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -112,7 +112,7 @@ export function Dashboard({ language }) {
         </div>
         <img
           className="h-28 w-full"
-          src={"/Personal_Website/images/negro.webp"}
+          src={"/rubenperez/images/negro.webp"}
           alt="negro"
           style={{
             borderTopLeftRadius: "0.4rem",

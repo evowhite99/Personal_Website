@@ -131,7 +131,7 @@ export function Top20({ language }) {
           {languages[language].games2}
         </div>
         {games.map((game) => (
-          <div className="mt-5 lg:pl-5 lg:pr-5 pl-1 pr-1 font-lilita outlineHeader  lg:text-2xl text-sm text-yellow-400 dark:text-blue-500    rounded-lg lg:w-7/12 w-11/12 flex justify-between items-center">
+          <div className="mt-5 lg:pl-5 lg:pr-5 pl-1 pr-1 font-lilita outlineHeader  lg:text-2xl text-sm text-yellow-400 dark:text-blue-500 rounded-lg lg:w-7/12 w-11/12 flex justify-between items-center">
             {game.rank}º<span className="ml-5 text-white">{game.name}</span>
             <a
               href={game.videoLink}
