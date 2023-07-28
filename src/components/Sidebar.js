@@ -79,11 +79,7 @@ export function Sidebar({
             >
               <img
                 className="h-6 w-8"
-                src={
-                  isSelected
-                    ? "/rubenperez/images/moon.png"
-                    : "/rubenperez/images/sun.png"
-                }
+                src={isSelected ? "/images/moon.png" : "/images/sun.png"}
                 alt={isSelected ? "light theme" : "dark theme"}
               />
             </span>

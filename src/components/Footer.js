@@ -31,7 +31,7 @@ export function Footer({ language }) {
               ? "opacity-100 translate-x-0"
               : "opacity-100 translate-x-40"
           }`}
-          src={"/rubenperez/images/arriba_icono.png"}
+          src={"/images/arriba_icono.png"}
           alt="Up Web"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         ></img>
@@ -61,7 +61,7 @@ export function Footer({ language }) {
           </div>
           <img
             className=" lg:h-20 h-8 cursor-pointer"
-            src={"/rubenperez/images/ko-fi.png"}
+            src={"/images/ko-fi.png"}
             alt="Ko-Fi"
           ></img>
         </a>
@@ -69,7 +69,7 @@ export function Footer({ language }) {
         <a href="https://www.instagram.com/ruben.web/">
           <img
             className="hover:scale-125 duration-200 lg:h-20 h-8 pb-2 lg:ml-10 ml-8 cursor-pointer"
-            src={"/rubenperez/images/instagram.png"}
+            src={"/images/instagram.png"}
             alt="Instagram"
           ></img>
         </a>

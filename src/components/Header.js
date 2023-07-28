@@ -26,19 +26,17 @@ export function Header({ language, setLanguage }) {
         document.body.classList.remove("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
-            "url(/rubenperez/images/sunPhotoMobile.webp)";
+            "url(images/sunPhotoMobile.webp)";
         } else {
-          document.body.style.backgroundImage =
-            "url(/rubenperez/images/sunPhoto.webp)";
+          document.body.style.backgroundImage = "url(/images/sunPhoto.webp)";
         }
       } else {
         document.body.classList.add("dark");
         if (window.innerWidth <= 768) {
           document.body.style.backgroundImage =
-            "url(/rubenperez/images/darkPhotoMobile.webp)";
+            "url(/images/darkPhotoMobile.webp)";
         } else {
-          document.body.style.backgroundImage =
-            "url(/rubenperez/images/darkPhoto.webp)";
+          document.body.style.backgroundImage = "url(/images/darkPhoto.webp)";
         }
       }
     });
@@ -89,11 +87,7 @@ export function Header({ language, setLanguage }) {
           >
             <img
               className="h-6 w-8"
-              src={
-                isSelected
-                  ? "/rubenperez/images/moon.png"
-                  : "/rubenperez/images/sun.png"
-              }
+              src={isSelected ? "/images/moon.png" : "/images/sun.png"}
               alt={isSelected ? "dark theme" : "light theme"}
             />
           </span>
@@ -103,7 +97,7 @@ export function Header({ language, setLanguage }) {
           onClick={handleToggleSidebar}
           className="cursor-pointer flex lg:w-8 lg:h-8 w-6 h-6 dark:pt-2 dark:pb-2 
           duration-300 hover:scale-125 dark:bg-white dark:rounded"
-          src={"/rubenperez/images/burger.svg"}
+          src={"images/burger.svg"}
           alt="sidebar"
         />
       </div>

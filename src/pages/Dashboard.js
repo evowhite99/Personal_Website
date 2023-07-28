@@ -9,7 +9,7 @@ export function Dashboard({ language }) {
         <Link to="/top20">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/rubenperez/images/top20Photo.webp"}
+            src={"/images/top20Photo.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -28,7 +28,7 @@ export function Dashboard({ language }) {
         <Link to="/music">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/rubenperez/images/music.webp"}
+            src={"/images/music.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -48,7 +48,7 @@ export function Dashboard({ language }) {
         <Link to="/dreams">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
-            src={"/rubenperez/images/dreams.webp"}
+            src={"/images/dreams.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -68,7 +68,7 @@ export function Dashboard({ language }) {
         <a href="https://www.instagram.com/ruben.web/">
           <img
             className="h-28 w-full"
-            src={"/rubenperez/images/portfolio.webp"}
+            src={"/images/portfolio.webp"}
             alt="Dreams PS4"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -87,7 +87,7 @@ export function Dashboard({ language }) {
         <a href="https://www.instagram.com/project_sphere__/">
           <img
             className="h-28 w-full"
-            src={"/rubenperez/images/game.webp"}
+            src={"/images/game.webp"}
             alt="negro"
             style={{
               borderTopLeftRadius: "0.4rem",
@@ -112,7 +112,7 @@ export function Dashboard({ language }) {
         </div>
         <img
           className="h-28 w-full"
-          src={"/rubenperez/images/negro.webp"}
+          src={"/images/negro.webp"}
           alt="negro"
           style={{
             borderTopLeftRadius: "0.4rem",
