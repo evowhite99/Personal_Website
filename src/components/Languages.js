@@ -27,7 +27,7 @@ export const languages = {
     music: "Music",
     list: "MUSIC LISTS",
     portfolio: "Portfolio",
-    duck: "Videojuego",
+    duck: "Videogame",
     prox: "Coming soon",
     shortcut: "Shortcuts",
     video: "Video",
