@@ -131,17 +131,16 @@ export function Top20({ language }) {
           {languages[language].games2}
         </div>
         {games.map((game) => (
-          <div className="mt-5 lg:pl-5 lg:pr-5 pl-1 pr-1 font-lilita outlineHeader  lg:text-2xl text-sm text-yellow-400 dark:text-blue-500 rounded-lg lg:w-7/12 w-11/12 flex justify-between items-center">
-            {game.rank}º<span className="ml-5 text-white">{game.name}</span>
+          <div className="mt-5 lg:pl-5 lg:pr-5   font-lilita outlineHeader  lg:text-2xl text-sm text-yellow-400 dark:text-blue-500 rounded-lg lg:w-7/12 w-11/12 flex justify-between items-center">
+            {game.rank}º<span className=" text-white">{game.name}</span>
             <a
               href={game.videoLink}
-              className="hover:scale-110 duration-200 justify-end ml-5 pr-1 pl-1 bg-blue-400 text-white rounded-lg lg:text-2xl text-sm"
+              className="hover:scale-110 duration-200 justify-end  pr-1 pl-1 bg-blue-400 text-white rounded-lg lg:text-2xl text-sm"
             >
               {languages[language].video}
             </a>
           </div>
         ))}
-        ;
       </div>
     </div>
   );
