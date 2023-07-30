@@ -77,7 +77,7 @@ export function Dashboard({ language }) {
           ></img>
           <div className="flex justify-center">
             <div className="font-bold font-lilita outlineHeader lg:text-2xl text-xl  dark:text-slate-300 text-yellow-500 mt-4">
-              {languages[language].portfolio}
+              Portfolio
             </div>
           </div>
         </a>

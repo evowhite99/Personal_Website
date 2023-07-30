@@ -111,9 +111,7 @@ export function Sidebar({
 
         <div className="flex justify-center">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <a href="https://www.rubenportfolio.com/">
-              {languages[language].portfolio}
-            </a>
+            <a href="https://www.rubenportfolio.com/">Portfolio </a>
           </div>
         </div>
 
