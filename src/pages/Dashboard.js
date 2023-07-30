@@ -10,7 +10,7 @@ export function Dashboard({ language }) {
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
             src={"/images/top20Photo.webp"}
-            alt="negro"
+            alt="top20"
             style={{
               borderTopLeftRadius: "0.4rem",
               borderTopRightRadius: "0.4rem",
@@ -29,7 +29,7 @@ export function Dashboard({ language }) {
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
             src={"/images/music.webp"}
-            alt="negro"
+            alt="music"
             style={{
               borderTopLeftRadius: "0.4rem",
               borderTopRightRadius: "0.4rem",
@@ -49,7 +49,7 @@ export function Dashboard({ language }) {
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
             src={"/images/dreams.webp"}
-            alt="negro"
+            alt="dreams"
             style={{
               borderTopLeftRadius: "0.4rem",
               borderTopRightRadius: "0.4rem",
@@ -88,7 +88,7 @@ export function Dashboard({ language }) {
           <img
             className="h-28 w-full"
             src={"/images/game.webp"}
-            alt="negro"
+            alt="game"
             style={{
               borderTopLeftRadius: "0.4rem",
               borderTopRightRadius: "0.4rem",
