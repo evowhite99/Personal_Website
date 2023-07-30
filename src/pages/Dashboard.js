@@ -65,7 +65,7 @@ export function Dashboard({ language }) {
       </div>
 
       <div className="hover:animate-pulse hover:scale-110 duration-200 lg:ml-28 mr-10 bg-gray-100 rounded-lg dark:bg-blue-900 dark:border-2 dark:border-black ">
-        <a href="https://www.instagram.com/ruben.web/">
+        <a href="https://www.rubenportfolio.com/">
           <img
             className="h-28 w-full"
             src={"/images/portfolio.webp"}
