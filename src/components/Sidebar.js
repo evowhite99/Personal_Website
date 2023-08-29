@@ -85,29 +85,6 @@ export function Sidebar({
             </span>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <Link to="/top20" onClick={onClose}>
-              {languages[language].games}
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex justify-center">
-          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <Link to="/music" onClick={onClose}>
-              {languages[language].music}
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex justify-center">
-          <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <Link to="/dreams" onClick={onClose}>
-              Dreams PS4
-            </Link>
-          </div>
-        </div>
 
         <div className="flex justify-center">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
@@ -116,10 +93,43 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
+            <Link to="/music" onClick={onClose}>
+              {languages[language].music}
+            </Link>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <a href="https://www.instagram.com/project_sphere__/">
               {languages[language].duck}
             </a>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
+            <Link to="/videogames" onClick={onClose}>
+              {languages[language].games}
+            </Link>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
+            <Link to="/dreams" onClick={onClose}>
+              Dreams PS4
+            </Link>
           </div>
         </div>
 

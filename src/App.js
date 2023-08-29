@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 
 import { Dashboard } from "./pages/Dashboard";
 import { Music } from "./pages/Music";
-import { Top20 } from "./pages/Top20";
+import { Videogames } from "./pages/Videogames";
 import { Dreams } from "./pages/Dreams";
 
 export function App() {
@@ -18,7 +18,7 @@ export function App() {
       <Header language={language} setLanguage={setLanguage} />
       <Routes>
         <Route path="/" element={<Dashboard language={language} />} />
-        <Route path="top20" element={<Top20 language={language} />} />
+        <Route path="videogames" element={<Videogames language={language} />} />
         <Route path="music" element={<Music language={language} />} />
         <Route path="dreams" element={<Dreams language={language} />} />
         <Route path="/" element={<Dashboard language={language} />} />
