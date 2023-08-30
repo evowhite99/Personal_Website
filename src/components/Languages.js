@@ -2,7 +2,7 @@ export const languages = {
   ES: {
     games: "Videojuegos",
     games2: "VIDEOJUEGOS RECOMENDADOS",
-    created: "© Creado por Rubén Pérez Lara",
+    created: "© 2023 - Rubén Pérez Lara",
     donations: "Donaciones",
     music: "Música",
     list: "LISTAS DE MÚSICA",
@@ -22,7 +22,7 @@ export const languages = {
   EN: {
     games: "Videogames",
     games2: "RECOMMENDED VIDEOGAMES",
-    created: "© Created by Rubén Pérez Lara",
+    created: "© 2023 - Rubén Pérez Lara",
     donations: "Donations",
     music: "Music",
     list: "MUSIC LISTS",
