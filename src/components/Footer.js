@@ -47,25 +47,7 @@ export function Footer({ language }) {
           ></iframe>
         </div>
       </div>
-      <div className="mt-20 flex justify-center">
-        <a
-          className="hover:scale-125 duration-200"
-          href="https://ko-fi.com/rubenweb"
-        >
-          <div
-            className={`absolute font-lilita outlineHeader text-sm lg:mt-[-10px] mt-[-16px] ml-[-16px] dark:text-slate-300 text-yellow-500 ${
-              language === "EN" ? "lg:ml-2" : "lg:ml-1"
-            }`}
-          >
-            {languages[language].donations}
-          </div>
-          <img
-            className=" lg:h-20 h-8 cursor-pointer"
-            src={"/images/ko-fi.png"}
-            alt="Ko-Fi"
-          ></img>
-        </a>
-      </div>
+
       <div className="flex justify-center">
         <div className="text-white mt-5 mb-10 lg:text-2xl text-xl">
           {languages[language].created}

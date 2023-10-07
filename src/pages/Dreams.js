@@ -14,7 +14,7 @@ export function Dreams({ language }) {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="font-lilita outlineHeader text-yellow-400  dark:text-blue-500 text-2xl">
+        <div className="font-lilita outlineHeader text-yellow-400  dark:text-blue-500 text-xl">
           {languages[language].projects} - DREAMS PS4
         </div>
       </div>

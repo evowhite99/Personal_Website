@@ -4,8 +4,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
 import { Dashboard } from "./pages/Dashboard";
-import { Music } from "./pages/Music";
-import { Videogames } from "./pages/Videogames";
+import { MusicGame } from "./pages/MusicGame";
 import { Dreams } from "./pages/Dreams";
 
 export function App() {
@@ -18,8 +17,7 @@ export function App() {
       <Header language={language} setLanguage={setLanguage} />
       <Routes>
         <Route path="/" element={<Dashboard language={language} />} />
-        <Route path="videogames" element={<Videogames language={language} />} />
-        <Route path="music" element={<Music language={language} />} />
+        <Route path="music&games" element={<MusicGame language={language} />} />
         <Route path="dreams" element={<Dreams language={language} />} />
         <Route path="/" element={<Dashboard language={language} />} />
       </Routes>

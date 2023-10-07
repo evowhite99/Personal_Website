@@ -1,11 +1,9 @@
 export const languages = {
   ES: {
-    games: "Videojuegos",
-    games2: "VIDEOJUEGOS RECOMENDADOS",
     created: "© 2023 - Rubén Pérez Lara",
     donations: "Donaciones",
-    music: "Música",
-    list: "LISTAS DE MÚSICA",
+    music: "Música y videojuegos",
+    list: "LISTAS DE MÚSICA Y VIDEOJUEGOS RECOMENDADOS",
     portfolio: "Portafolio",
     duck: "Proyecto",
     prox: "Próximamente",
@@ -20,12 +18,10 @@ export const languages = {
     dreams3: `“Videojuego” inspirado en varios juegos actuales. Solo está la beta jugable que contiene cinemática principal y test del juego con sus mecánicas. El proyecto fue creado para aprender los detalles básicos a la hora de crear videojuegos.`,
   },
   EN: {
-    games: "Videogames",
-    games2: "RECOMMENDED VIDEOGAMES",
     created: "© 2023 - Rubén Pérez Lara",
     donations: "Donations",
-    music: "Music",
-    list: "MUSIC LISTS",
+    music: "Music and videogames",
+    list: "MUSIC LISTS AND RECOMMENDED VIDEOGAMES",
     portfolio: "Portfolio",
     duck: "Project",
     prox: "Coming soon",
