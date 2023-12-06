@@ -16,6 +16,7 @@ export const languages = {
     modelaje 3D, música, etc.`,
     dreams2: `Videojuego Rayman 1 recreado en Dreams. Rayman 1 fue lanzado en PlayStation 1, Atari Jaguar y PC. Selector de niveles, nivel 1 y nivel 2 con jefe son jugables. Creado por un fan.`,
     dreams3: `“Videojuego” inspirado en varios juegos actuales. Solo está la beta jugable que contiene cinemática principal y test del juego con sus mecánicas. El proyecto fue creado para aprender los detalles básicos a la hora de crear videojuegos.`,
+    shop: "Tienda",
   },
   EN: {
     created: "© 2023 - Rubén Pérez Lara",
@@ -34,5 +35,6 @@ export const languages = {
     3D modeling, music, etc.`,
     dreams2: `Video game Rayman 1 recreated in Dreams. Rayman 1 was released on the PlayStation 1, Atari Jaguar, and PC. Level selector, level 1 and level 2 with boss are playable. Created by a fan.`,
     dreams3: `"Video game" inspired by various current games. There is only the playable beta that contains the main cinematic and game test with its mechanics. The project was created to learn the basic details of creating video games.`,
+    shop: "Shop",
   },
 };
