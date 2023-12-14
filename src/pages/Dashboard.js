@@ -67,7 +67,7 @@ export function Dashboard({ language }) {
       </div>
 
       <div className="hover:animate-pulse lg:hover:scale-100 hover:scale-110 duration-200  mr-10 bg-gray-100 rounded-lg dark:bg-blue-900 dark:border-2 dark:border-black ">
-        <a href="https://www.instagram.com/project.web_/">
+        <a href="https://www.instagram.com/uventicshop/">
           <img
             className="h-28 lg:pb-0 pb-1 w-full"
             src={"/images/shop.webp"}

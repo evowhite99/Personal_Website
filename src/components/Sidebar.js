@@ -118,7 +118,7 @@ export function Sidebar({
 
         <div className="flex justify-center mb-8">
           <div className="font-lilita outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
-            <a href="https://www.instagram.com/project.web_/">
+            <a href="https://www.instagram.com/uventicshop/">
               {languages[language].shop}
             </a>
           </div>
